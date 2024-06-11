@@ -1,0 +1,129 @@
+body {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+#buttons-container button {
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  width: 6.5rem;
+}
+
+#buttons-container button:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+#container {
+  display: flex;
+  width: 18.75rem;
+  margin: 1.25rem 0 0 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box {
+  height: 6.25rem;
+  border: 0.25rem solid #000;
+  box-sizing: border-box;
+  flex: 1 1 33%;
+}
+
+.box:hover {
+  cursor: pointer;
+}
+
+#block-1,
+#block-2,
+#block-3 {
+  border-top: none;
+}
+
+#block-1,
+#block-4,
+#block-7 {
+  border-left: none;
+}
+
+#block-7,
+#block-8,
+#block-9 {
+  border-bottom: none;
+}
+
+#block-3,
+#block-6,
+#block-9 {
+  border-right: none;
+}
+
+.x {
+  font-size: 4.5rem;
+  color: red;
+  display: inline-block;
+  line-height: 6.25rem;
+}
+
+.o {
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.35rem solid green;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.hide {
+  display: none !important;
+}
+
+.score-box {
+  margin: 0 2.25rem;
+}
+
+#scoreboard-container {
+  font-weight: bold;
+  margin-top: 1.75rem;
+  font-size: 1.5rem;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#x-scoreboard {
+  color: red;
+  font-size: 1.55rem;
+  margin-right: 0.2rem;
+}
+
+#o-scoreboard {
+  display: inline-block;
+  width: 0.8rem;
+  height: 0.8rem;
+  border: 0.225rem solid green;
+  border-radius: 50%;
+  margin-top: 0.5rem;
+  margin-right: 0.2rem;
+}
+
+#message p {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 9.25rem;
+  width: 31.25rem;
+  font-size: 3.125rem;
+  background-color: #000;
+  color: #fff;
+  padding: 1.25rem;
+}
